@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name":"Điện Thoại",
+    "image":"/imgs/fptshop/dien-thoai.png",
+    "link":"dienthoai.html"
+  },
+  {
+    "id": 2,
+    "name":"Laptop",
+    "image":"/imgs/fptshop/laptop.png",
+    "link":"dienthoai.html"
+  },
+  {
+    "id": 3,
+    "name":"Apple",
+    "image":"/imgs/fptshop/apple.png",
+    "link":"dienthoai.html"
+  },
+  {
+    "id": 4,
+    "name":"Máy tính bảng",
+    "image":"/imgs/fptshop/tablet.png",
+    "link":"dienthoai.html"
+  },
+  {
+    "id": 5,
+    "name":"Đồng hồ thông minh",
+    "image":"/imgs/fptshop/smart-watch.png",
+    "link":"dienthoai.html"
+  },
+  {
+    "id": 6,
+    "name":"Ốp lưng điện thoại",
+    "image":"/imgs/fptshop/op-lung.png",
+    "link":"dienthoai.html"
+  },
+  {
+    "id": 7,
+    "name":"Tai nghe",
+    "image":"/imgs/fptshop/tai-nghe.png",
+    "link":"dienthoai.html"
+  },
+  {
+    "id": 8,
+    "name":"Thẻ nhớ",
+    "image":"/imgs/fptshop/the-nho.png",
+    "link":"dienthoai.html"
+  },
+  {
+    "id": 9,
+    "name":"Loa nghe nhạc",
+    "image":"/imgs/fptshop/loa-nghe-nhac.png",
+    "link":"dienthoai.html"
+  },
+  {
+    "id": 10,
+    "name":"Sạc cáp",
+    "image":"/imgs/fptshop/cap-sac.png",
+    "link":"dienthoai.html"
+  },
+  {
+    "id": 11,
+    "name":"Máy tính để bàn",
+    "image":"/imgs/fptshop/may-tinh-de-ban.png",
+    "link":"dienthoai.html"
+  },
+  {
+    "id": 12,
+    "name":"Máy in",
+    "image":"/imgs/fptshop/may-in.png",
+    "link":"dienthoai.html"
+  }
+]

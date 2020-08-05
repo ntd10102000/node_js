@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('headass15.ejs'); %>
+<body>
+<div class="section header">
+    <div class="container">
+        <div class="box" id="box">
+            <% foods.map(function (e) { %>
+                            <a href="#">
+                                <div class="item">
+                                    <div class="img">
+                                        <div class="new">New</div>
+                                        <img class="img" src="<%= e.image %>"/>
+                                        <img class="img1" src="<%= e.image1 %>"/>
+                                    </div>
+                                    <div class="name">
+                                        <h3><%= e.species %>></h3>
+                                        <h4><%= e.name %></h4>
+                                        <p>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </p>
+                                        <ul>
+                                            <li><%= e.price %>></li>
+                                        </ul>
+                                    </div>
+                                    <div class="hover">
+                                        <a href="#" class="text">ADD TO CART</a>
+                                        <i class="far fa-heart"></i>
+                                        <i class="fas fa-random"></i>
+                                    </div>
+                                    <a href="#">
+                                        <div class="search">
+                                            <i class="fas fa-search"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </a>
+                <% }) %>
+        </div>
+    </div>
+</div>
+</body>
+</html>

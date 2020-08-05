@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 14px;
+    color: #343132;
+    font-family: 'Poppins', sans-serif;
+}
+.section{
+    float: left;
+    width: 100%;
+}
+.container{
+    width: 1500px;
+    margin: 0 auto;
+}
+.box{
+    margin-bottom: 30px;
+}
+.item{
+    border: 1px solid #ebebeb;
+    width: 23%;
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    float: left;
+    border-radius: 5px;
+    display: block;
+    height: auto;
+    position: relative;
+}
+.item .img{
+    max-width: 100%;
+}
+.item .img1{
+    max-width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    position: absolute;
+    margin-left: -100%;
+}
+.search{
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    background-color: #fff;
+    transition: .8s ease;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    top: 36%;
+    left: 43%;
+    padding-top: 14px;
+}
+.search i{
+    font-size: 1.5em;
+    color: #343132;
+}
+.text {
+    color: #253237;
+    font-size: 16px;
+    position: absolute;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.hover i{
+    float: right;
+    margin-right: 10px;
+    font-size: 1.3em;
+}
+
+.item:hover{
+    border-color: #28a745;
+}
+.item .hover{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    overflow: hidden;
+    height: 0;
+    transition: .5s ease;
+    border-radius: 8px;
+}
+
+.hover a{
+    text-decoration: underline!important;
+}
+.item:hover .img1{
+    opacity: 1;
+}
+.item:hover .hover{
+    height: 8%;
+}
+.text:hover{
+    color: #4fb68d;
+}
+.hover i:hover{
+    color: #4fb68d;
+}
+.item:hover .search{
+    opacity: 1;
+}
+.search:hover{
+    background-color: #4fb68d;
+}
+.search i:hover{
+    color: #fff;
+}
+
+.img .new{
+    width: 40px;
+    background-color: #4eb38b;
+    color: #f2f2f2;
+    padding: 2px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.name{
+    padding: 12px;
+}
+.box a{
+    text-decoration: none;
+}
+.box h3{
+    font-weight: 100;
+    color: #acacac;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.box h4{
+    color: #253237;
+    font-weight: 700;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.name i{
+    font-size: 0.9em;
+    color: #fdd835;
+    margin-bottom: 10px;
+}
+.name li{
+    list-style: none;
+    margin-bottom: 5px;
+    color: #9b9b9b;
+}

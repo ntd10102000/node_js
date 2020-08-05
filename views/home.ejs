@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><%= title %></title>
+    <link rel="stylesheet" type="text/css" href="css/app.css"/>
+    <script type="text/javascript" src="js/jquery.js"></script>
+</head>
+<body>
+<section class="section">
+    <div class="container">
+        <div id="item" class="item">
+            <!--                <div class="item_content">-->
+            <!--                    <h2 class="date_time"></h2>-->
+            <!--                    <h1 class="temp"></h1><img src="imgs/04n@2x.png"/>-->
+            <!--                    <p class="description"></p>-->
+            <!--                </div>-->
+        </div>
+    </div>
+</section>
+<script type="text/javascript">
+    $.ajax({
+        url:"http://api.openweathermap.org/data/2.5/forecast",
+        method:"GET",
+        data:{
+            q:"Hanoi,vietnam",
+            appid:"09a71427c59d38d6a34f89b47d75975c",
+            units:"metric"
+        },
+        success: function (rs) {
+            for (var e of rs.list){
+                var item_html = "<div class=\"item_content\">\n" +
+                    "                    <h2 class=\"date_time\">"+e.dt_txt+"</h2>\n" +
+                    "                    <h1 class=\"temp\">"+e.main.temp+"<sup>o</sup>C"+"</h1><img src=\"imgs/04n@2x.png\"/>\n" ;
+                for (var i of e.weather){
+                    var des = "<p class=\"description\">"+i.description+"</p>\n" +
+                        "                </div>";
+                }
+                document.getElementById("item").innerHTML += (item_html + des);
+            }
+        }
+    })
+</script>
+</body>
+</html>

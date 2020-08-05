@@ -1,0 +1,86 @@
+[
+  {
+    "image":"imgs/assignment10/product-1.jpg",
+    "image1":"imgs/assignment10/product-1.jpg",
+    "species":"STUDIO DISIGN",
+    "name":"Juicy Couture Juicy Quilted T..",
+    "price":"$18.90"
+  },
+  {
+    "image":"imgs/assignment10/product-2.jpg",
+    "image1":"imgs/assignment10/product-15.jpg",
+    "species":"STUDIO DISIGN",
+    "name":"New Balance Fresh Foam Ka..",
+    "price":"$18.90"
+  },
+  {
+    "image":"imgs/assignment10/product-3.jpg",
+    "image1":"imgs/assignment10/product-4.jpg",
+    "species":"GRAPHIC CORNER",
+    "name":"Brixton Patrol All Terrain..",
+    "price":"$18.90"
+  },
+  {
+    "image":"imgs/assignment10/product-5.jpg",
+    "image1":"imgs/assignment10/product-5.jpg",
+    "species":"GRAPHIC CORNER",
+    "name":"Juicy Couture Tricot Logo S..",
+    "price":"$18.90"
+  },
+  {
+    "image":"imgs/assignment10/product-6.jpg",
+    "image1":"imgs/assignment10/product-6.jpg",
+    "species":"STUDIO DISIGN",
+    "name":"New Balance Arishi Sport v1",
+    "price":"$18.90"
+  },
+  {
+    "image":"imgs/assignment10/product-7.jpg",
+    "image1":"imgs/assignment10/product-8.jpg",
+    "species":"GRAPHIC CORNER",
+    "name":"Fila Locker Room Varsit...",
+    "price":"$18.90"
+  },
+  {
+    "image":"imgs/assignment10/product-9.jpg",
+    "image1":"imgs/assignment10/product-9.jpg",
+    "species":"STUDIO DISIGN",
+    "name":"Water and Wind Resista..",
+    "price":"$18.90"
+  },
+  {
+    "image":"imgs/assignment10/product-10.jpg",
+    "image1":"imgs/assignment10/product-10.jpg",
+    "species":"STUDIO DISIGN",
+    "name":"New Luxury Men's Slim Fi...",
+    "price":"$18.90"
+  },
+  {
+    "image":"imgs/assignment10/product-11.jpg",
+    "image1":"imgs/assignment10/product-12.jpg",
+    "species":"STUDIO DISIGN",
+    "name":"Originals Kaval Win...",
+    "price":"$18.90"
+  },
+  {
+    "image":"imgs/assignment10/product-4.jpg",
+    "image1":"imgs/assignment10/product-3.jpg",
+    "species":"STUDIO DISIGN",
+    "name":"Brixton Patrol All Terra...",
+    "price":"$18.90"
+  },
+  {
+    "image":"imgs/assignment10/product-14.jpg",
+    "image1":"imgs/assignment10/product-14.jpg",
+    "species":"STUDIO DISIGN",
+    "name":"Madden by Steve Madden C...",
+    "price":"$18.90"
+  },
+  {
+    "image":"imgs/assignment10/product-15.jpg",
+    "image1":"imgs/assignment10/product-2.jpg",
+    "species":"STUDIO DISIGN",
+    "name":"Juicy Couture Juicy Quilted T..",
+    "price":"$18.90"
+  }
+]

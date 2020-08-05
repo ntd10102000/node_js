@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 14px;
+    color: #343132;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f2f2f2;
+    background-image: url("../imgs/duaconcau.jpg");
+    background-size: cover;
+    margin: 20px 0;
+}
+.section{
+    float: left;
+    width: 100%;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.item_content{
+    width: 23%;
+    background-color: rgba(172, 185, 196, 0.7);
+    padding: 18px;
+    border: 1px solid #2c6f8790;
+    color: #ffffff;
+    border-radius: 5px;
+    padding-bottom: 30px;
+    margin: 12px;
+    float: left;
+}
+.item_content img{
+    float: right;
+    margin-top: -90px;
+}
+.item_content .temp{
+    margin: 20px 0;
+    font-size: 38px;
+    font-weight: 100;
+}
+.item_content .date_time{
+    font-weight: 100;
+    font-size: 20px;
+}
+.item_content .description{
+    padding-top: 20px;
+    font-weight: 100;
+    font-size: 17px;
+    width: 100%;
+}
